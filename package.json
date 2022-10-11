@@ -1,0 +1,39 @@
+{
+  "name": "image_recognition_tensorflow_js",
+  "version": "1.0.0",
+  "description": "This project is not developed by Python, Only used Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstack-guru0719/image-recognition-with-tensorflowjs.git"
+  },
+  "keywords": [
+    "image",
+    "recognition",
+    "tensorflow",
+    "coco-ssd"
+  ],
+  "author": "fullstack-guru0719",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstack-guru0719/image-recognition-with-tensorflowjs/issues"
+  },
+  "homepage": "https://github.com/fullstack-guru0719/image-recognition-with-tensorflowjs#readme",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs": "^3.21.0",
+    "@tensorflow/tfjs-backend-cpu": "^3.21.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.21.0",
+    "@tensorflow/tfjs-converter": "^3.21.0",
+    "@tensorflow/tfjs-core": "^3.21.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
